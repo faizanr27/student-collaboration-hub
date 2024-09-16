@@ -10,8 +10,9 @@ import { getStorage } from "firebase/storage";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-    apiKey: "AIzaSyAfXwApLB1ia1bMl-wz3irdpWJ1h57kbD0",
+  apiKey: "AIzaSyAfXwApLB1ia1bMl-wz3irdpWJ1h57kbD0",
   authDomain: "student-collab-hub-ddda5.firebaseapp.com",
+  databaseURL: "https://student-collab-hub-ddda5-default-rtdb.firebaseio.com",
   projectId: "student-collab-hub-ddda5",
   storageBucket: "student-collab-hub-ddda5.appspot.com",
   messagingSenderId: "222148868627",
